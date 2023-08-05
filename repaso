@@ -1,0 +1,69 @@
+
+/*for(let i=1;i<=20;i++){
+     if (i%2 === 0){
+      document.write(i+"<br>");
+        }
+     }
+*/
+/*for(let i=10;i>=0;i--){
+        console.log(i);
+     }
+*/
+/*let num= parseInt(prompt("Ingrese un numero positivo: "));
+let acumulador=""
+  while (num<=0){
+    console.log("¡Incorrecto trata de nuevo!");
+        num= parseInt(prompt("Ingrese un numero positivo: "));
+  }
+    for(let i=num;i>=0;i--){
+        acumulador+=i
+        acumulador+=","
+  }
+console.log(acumulador);
+*/
+
+/*const palabra= "Naranja"
+const letra= "a"
+let contador= 0
+
+for(let i=0; i < palabra.length; i++){
+    if(palabra[i] === letra){
+        contador++
+    }
+}
+console.log("La letra "+ letra + " aparece " + contador + " veces")
+*/
+/*let numero=parseInt(prompt("Ingrese un numero: "));
+        document.write("Tabla de multiplicar del "+ numero);
+        for (let i=1;i<=10;i++) {
+          document.write(numero+"x"+i+"="+" "+(numero*i));
+        }
+ */
+/*const num=3
+let acumulador=""
+for(let i=num;i>=0;i--){
+    acumulador+=i
+    acumulador+=","
+}
+console.log(acumulador);
+*/
+/*let num=parseInt(prompt("Ingrese el largo de la linea: "));
+let acumulador=""
+for(let i=num;i>0;i--){
+    acumulador+="-♪"
+}
+console.log(acumulador);
+*/
+
+function myFunction(palabra, letra){
+let contador=0
+for(let i=0; i < palabra.length; i++){
+    if(palabra[i] === letra){
+        contador++
+    }
+}
+console.log("La letra "+ letra + " aparece " + contador + " veces")
+}
+let palabra= prompt("Ingrese una palabra: ")
+let letra= prompt("Ingrese una letra: ")
+greet(myFunction);
