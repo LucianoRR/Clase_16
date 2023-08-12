@@ -64,6 +64,4 @@ for(let i=0; i < palabra.length; i++){
 }
 console.log("La letra "+ letra + " aparece " + contador + " veces")
 }
-let palabra= prompt("Ingrese una palabra: ")
-let letra= prompt("Ingrese una letra: ")
-greet(myFunction);
+myFunction("loool","o")
